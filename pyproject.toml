@@ -5,6 +5,10 @@ description = ""
 authors = ["Kaido Iwamoto <h6824.kaido@gmail.com>"]
 license = "MIT"
 
+packages = [
+    {include="example_package"},
+]
+
 [tool.poetry.dependencies]
 python = ">=3.6"
 numpy = "^1.16"
